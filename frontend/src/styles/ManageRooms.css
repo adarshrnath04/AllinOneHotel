@@ -1,0 +1,119 @@
+.manage-rooms-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.no-rooms {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
+
+.rooms-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.room-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+}
+
+.room-item:hover {
+  background-color: #f0f8ff;
+}
+
+.room-info {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.room-actions button {
+  margin-left: 8px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.btn {
+  font-weight: 600;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #4caf50; /* green */
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #f44336; /* red */
+}
+
+.delete-btn:hover {
+  background-color: #da190b;
+}
+
+.add-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background-color: #007bff; /* blue */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-room-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-room-form input {
+  padding: 8px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.cancel-btn {
+  background-color: #888;
+}
+
+.cancel-btn:hover {
+  background-color: #555;
+}

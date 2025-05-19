@@ -1,0 +1,88 @@
+/* UserBookings.css */
+
+.user-bookings-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px 20px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.user-bookings-heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bookings-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.booking-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+  transition: background-color 0.2s ease;
+}
+
+.booking-item:hover {
+  background-color: #e9f0ff;
+}
+
+.booking-info {
+  font-size: 1.1rem;
+  color: #333;
+  flex: 1;
+}
+
+.booking-status {
+  font-weight: 600;
+  color: #007bff;
+  margin-left: 12px;
+}
+
+.booking-status.cancelled {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  margin-left: 20px;
+  user-select: none;
+}
+
+.cancel-button:hover {
+  background-color: #a71d2a;
+}
+
+.cancel-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+}
+
+.no-bookings {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-top: 30px;
+}
